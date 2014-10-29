@@ -13,6 +13,7 @@ body{
     border: 1px solid #7E7E7E;
 }
 
+<<<<<<< HEAD
 header, section{
     position: relative;
     margin: 0px;
@@ -70,10 +71,68 @@ section li:last_child{
 }
 
 header li a, header li a:link{
+=======
+.section{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.block{    
+    width: 95%;    
+    position: relative;  
+    left: 5%;
+	
+}
+
+
+
+#top_img
+{
+	padding-top: 0px;
+}
+
+#bl1{ 
+	padding-top: 0px;
+    background-color: #DFDFDF; 		
+}
+
+#bl2{
+    background-color: #1815F4; 	
+}
+
+#bl3{
+    background-color: white;   		
+}
+
+#bl4{
+    background-color: red;  		
+}
+
+
+
+#find{    
+    position:absolute; 
+    right:6%;
+    top:15%;   
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    display: block;
+    float: left;
+    width: 80px;    
+}
+
+li a,li a:link{
+>>>>>>> c440efc8554218912196589a1b0619fb82e00da4
     color: black;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 header li a:hover{ 
     text-decoration: underline;
 }
@@ -154,3 +213,108 @@ section div{
     margin-top: 10px;
 }
 
+=======
+li a:hover{
+    text-decoration: underline;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#line{    
+    border: 2px solid #C8C5C5; 
+}
+
+#intro{
+    top: 4%;
+    left: 2%;  
+    width: 20%;
+    background-color: red; 
+    position: absolute;    
+}
+
+.pic{
+    width: 100%;	
+}
+
+#top_img img{
+    width: 94%; 
+}
+  
+ 
+.cont_img{          
+	float: left;	
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.cont_text{    	    
+	float: left;	
+	padding: 1%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#bl1 .block  .cont_img{
+	margin-right: 2%;		
+	width: 30%; 	
+}
+
+#bl1 .block  .cont_text{
+	margin-right: 2%;
+    width: 28%; 
+	background-color: #8B8787;   
+}
+
+#bl2 .block  .cont_img{
+	float: right;
+	margin-right: 6%;
+    width: 45%;
+	height: 360px;
+	overflow:hidden ;
+}
+
+#bl2 .block  .cont_text{	
+	margin-right: 2%;		
+    width: 45%; 
+	height: 330px;
+	background-color: #8B8787;
+	overflow:auto ;
+}
+
+#bl3 .block  .cont_img{
+	margin-right: 2%;		
+	width: 30%; 
+}
+
+#bl4 .block  .cont_img{
+	margin-bottom: 0px;
+	margin-right: 2%;		
+	width: 22%; 	
+}
+
+#bl4 .block  .cont_text{
+	margin-right: 2%;
+	margin-top: 0px;
+	width: 20%; 	
+	background-color: white;
+	overflow:hidden ;
+}
+
+h3{
+	padding: 0px;
+	margin: 0px;
+}
+
+#bl2 .block h3{
+	color: white;
+}
+
+#bl3 .block .cont_img{
+	font-size: 10px;
+}
+
+
+>>>>>>> c440efc8554218912196589a1b0619fb82e00da4
